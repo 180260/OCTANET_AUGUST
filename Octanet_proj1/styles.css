@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  
+}
+
+header {
+    background-color: #ede6ec;
+    color: #f90000;
+
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #0b0b0b;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('main_logo.webp')no-repeat center center/cover;
+    height: 132vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color:#121312;
+    
+}
+
+.hero .btn {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.destinations,
+.services,
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #141414de;
+    
+}
+.dest{
+    background-image: url('image2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.destination-grid,
+.service-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.destination,
+.service {
+    background-color: #11e4b6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: left;
+    padding: 20px;
+}
+
+.destination h3,
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.destination p,
+.service p {
+    font-size: 16px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact .btn {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+#one{
+    color:#000000;
+}
+.destination:hover{
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.service:hover{
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+}
+a{
+    border-color: rgb(20, 20, 20);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    padding:5px;
+}
+a:hover{
+    background-color: #11e4b6;
+    cursor: pointer;
+}
